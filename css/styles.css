@@ -1,20 +1,49 @@
 body{
 	/*background:red;*/
+
+    color: #666;
+    font-family: 'Open Sans', arial, sans-serif;
+    /*width: 960px;
+    margin: 0 auto 0 auto;*/
+}
+
+
+nav a:hover, a.current {
+  color: #d71a00;
 }
 
 .navbar{
 	color:#000;
 	border-bottom: 5px solid #000;
+	min-height: 145px;
+}
+.navbar-default{
+	background-color: #fff;
+}
+
+@media (min-width: 768px){
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}	
 }
 
 .hero .main-heading{
 	margin-top: 15px;
 	margin-bottom:15px;
 }
+
+.logo{
+	font-size: 20px;
+}
+
 img{
 	/*width:100%;*/
+	padding: 0;
 }
 .main-wrapper{
-	width: 75%;
+	width: 80%;
 	margin:0 auto;
+	padding:10px;
 }
