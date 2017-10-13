@@ -1,0 +1,20 @@
+body{
+	/*background:red;*/
+}
+
+.navbar{
+	color:#000;
+	border-bottom: 5px solid #000;
+}
+
+.hero .main-heading{
+	margin-top: 15px;
+	margin-bottom:15px;
+}
+img{
+	/*width:100%;*/
+}
+.main-wrapper{
+	width: 75%;
+	margin:0 auto;
+}
